@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Aplicación web para determinar si 3 valores dados forman una terna pitagórica">
+    <meta name= "robots" content= "index, follow">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;700&family=Roboto+Condensed:wght@300;400;700&display=swap" rel="stylesheet">
+	<title>TERNA PITAGÓRICA</title>
+	<link rel="stylesheet" type="text/css" href="./styles/terna-pitagorica.css">
+	<link href="./styles/terna-pitagorica-desktop.css" media="screen and (min-width: 600px)" type="text/css" rel="stylesheet" />
+</head>
+<body>
+	<header>
+		<div class="logo-container">
+			<img src="./imgs/black-red-logo.jpg">
+		</div>
+		<div>
+			<h2 class="title">Herramientas Matemáticas</h2>
+		</div>
+	</header>
+	<main>
+		<h1>Terna Pitagórica</h1>
+		<section class="data-input">
+			<!-- <h1>Terna Pitagórica</h1> -->
+			<article>
+				<p>Ingrese las medidas de los 3 lados del triángulo:</p>
+				<p>
+					<label for="side1">Lado 1:</label><br>
+					<input type="number" id="side1">
+				</p>
+				<p>
+					<label for="side2">Lado 2:</label><br>
+					<input type="number" id="side2">
+				</p>
+				<p>
+					<label for="side3">Lado 3:</label><br>
+					<input type="number" id="side3">
+				</p>
+				<p class="button-container">
+					<button id="btn">Calcular</button>
+				</p>
+			</article>
+		</section>
+		<section class="result-container">
+			<h2>Resultado:</h2>
+			<p id="result"></p>
+		</section>
+		<section class="clean-section">
+			<p class="clean-button__container">
+				<button id="clean_btn">Limpiar todos los campos</button>
+			</p>
+		</section>
+	</main>
+	<script type="text/javascript" src="./src/terna-pitagorica.js"></script>
+
+</body>
+</html>

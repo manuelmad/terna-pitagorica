@@ -1,0 +1,16 @@
+header {
+	grid-template-columns: 1fr 2fr 1fr;
+	/* padding: 2rem; */
+}
+
+.logo-container {
+	padding-left: 2rem;
+}
+
+header img {
+	width: 20rem;
+}
+
+.title {
+	text-transform: uppercase;
+}
